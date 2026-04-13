@@ -76,7 +76,8 @@ This project provides a centralized command center that:
                         │   (security_center.db) │
                         └─────────────────┘
 ```
-
+<img src="README.png" width="500" alt="README 图片">
+https://github.com/JianduojieDan/info_sec_MultiPod/edit/main/README.md
 ### Core Components
 
 1. **Backend Service** (`backEnd/main.py`)

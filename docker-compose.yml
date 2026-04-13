@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  # 后端服务
+  backend:
+    build: ./backEnd
+    container_name: security-backend
+    ports:
+      - "8000:8000"
+    restart: always
+    networks:
+      - security-net
+
+  # 前端服务
+  frontend:
+    build: ./frontEnd
+    container_name: security-frontend
+    ports:
+      - "8501:8501"
+    environment:
+      - BACKEND_URL=http://backend:8000
+    depends_on:
+      - backend
+    restart: always
+    networks:
+      - security-net
+
+networks:
+  security-net:
+    driver: bridge

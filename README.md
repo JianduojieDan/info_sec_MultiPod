@@ -51,31 +51,6 @@ This project provides a centralized command center that:
 
 ### System Architecture Diagram
 
-```
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Disk Analyzer  │    │   Multi-Pod      │    │   Admin/User    │
-│   (External      │────│   Command Center │────│   Dashboard     │
-│   Client Nodes)  │    │   (This Project) │    │                 │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-        │                         │                         │
-        │ 1. POST /report         │ 3. GET /get_latest_reports │
-        │    (JSON payload)       │    GET /stats            │
-        │                         │                         │
-        ▼                         ▼                         ▼
-┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
-│   Disk Usage    │    │   FastAPI       │    │   Streamlit     │
-│   Monitoring    │    │   Backend       │    │   Frontend      │
-│   Data          │    │   (Python)      │    │   (Python)      │
-└─────────────────┘    └─────────────────┘    └─────────────────┘
-                                │
-                                │ 2. SQLite Persistence
-                                ▼
-                        ┌─────────────────┐
-                        │   SQLite        │
-                        │   Database      │
-                        │   (security_center.db) │
-                        └─────────────────┘
-```
 <img src="README.png" width="500" alt="README 图片">
 https://github.com/JianduojieDan/info_sec_MultiPod/edit/main/README.md
 ### Core Components

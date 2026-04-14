@@ -7,7 +7,7 @@ import os
 
 app = FastAPI()
 
-# 数据库与检测阈值配置
+# Database configuration
 DB_PATH = "security_center.db"
 ALERT_THRESHOLD_GB = float(os.getenv("ALERT_THRESHOLD_GB", "0.01"))
 
@@ -30,7 +30,7 @@ def init_db():
             alert_level TEXT NOT NULL
         )
     ''')
-    # 存储报告详情表 (磁盘条目)
+    # storage report items table
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS report_items (
             id INTEGER PRIMARY KEY AUTOINCREMENT,

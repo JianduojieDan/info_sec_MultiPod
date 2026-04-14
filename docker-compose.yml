@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  # 后端服务
+  # backend service
   backend:
     build: ./backEnd
     container_name: security-backend
@@ -11,7 +11,7 @@ services:
     networks:
       - security-net
 
-  # 前端服务
+  # frontend service
   frontend:
     build: ./frontEnd
     container_name: security-frontend

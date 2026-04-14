@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: security-backend:latest # 假设镜像已构建并推送
+        image: security-backend:latest
         ports:
         - containerPort: 8000
 ---
@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: security-frontend:latest # 假设镜像已构建并推送
+        image: security-frontend:latest
         ports:
         - containerPort: 8501
         env:

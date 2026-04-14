@@ -1,18 +1,17 @@
-# 使用 Python 3.12 轻量级基础镜像
 FROM python:3.12-slim
 
-# 设置工作目录
+# set working directory to /app
 WORKDIR /app
 
-# 复制依赖列表并安装
+# copy dependencies and install
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 复制后端代码
+# copy backend code
 COPY main.py .
 
-# 暴露端口
+# expose port
 EXPOSE 8000
 
-# 启动命令
+# start command to run backend
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

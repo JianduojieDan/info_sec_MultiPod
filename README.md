@@ -442,13 +442,3 @@ Note:
 ### No data shown
 - Check backend health: `http://localhost:8000/health`
 - Verify external node is posting valid payloads to `/report`
-
----
-
-## Suggested Next Upgrades
-
-Recommended order:
-1. Build Disk Analyzer in a separate repository and integrate with `/report`.
-2. Add authentication (API key or JWT) to prevent forged reports.
-3. Upgrade storage from SQLite to PostgreSQL.
-4. Add outbound alert channels (email, Slack, webhook).

@@ -5,6 +5,10 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.32.2-red.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Certification
+
+![Ethical Hacker Certificate](certificate.png)
+
 ## Table of Contents
 
 - [Project Description & Problem Statement](#project-description--problem-statement)
@@ -17,8 +21,10 @@
 - [Threshold Configuration](#threshold-configuration)
 - [Docker Deployment](#docker-deployment)
 - [Kubernetes Deployment](#kubernetes-deployment-optional)
+- [Pitch Presentation](#pitch-presentation)
+- [Demo Video](#demo-video)
+- [Faculty Feedback](#faculty-feedback)
 - [Troubleshooting](#troubleshooting)
-- [Suggested Next Upgrades](#suggested-next-upgrades)
 
 ## Project Description & Problem Statement
 
@@ -52,7 +58,6 @@ This project provides a centralized command center that:
 ### System Architecture Diagram
 
 <img src="README.png" width="500" alt="README 图片">
-https://github.com/JianduojieDan/info_sec_MultiPod/edit/main/README.md
 ### Core Components
 
 1. **Backend Service** (`backEnd/main.py`)
@@ -424,6 +429,41 @@ Note:
   - `Secret` for credentials/keys
   - `PVC` for persistent database storage
   - `NetworkPolicy` for least-privilege network access
+
+---
+
+## Pitch Presentation
+
+- Slides link: `[Add PPT/PDF link here]`
+
+Your presentation should cover:
+- Problem and motivation
+- Your solution
+- System architecture
+- Key technical decisions
+- Demo and results
+
+---
+
+## Demo Video
+
+- Demo link: `[Add YouTube or Google Drive link here]`
+
+Recommended walkthrough flow:
+1. Start backend and frontend services
+2. Submit a sample report to `POST /report`
+3. Show dashboard updates (`/stats` and latest reports)
+4. Explain critical alert threshold behavior
+
+---
+
+## Faculty Feedback
+
+- Feedback video link: `[Add YouTube or Google Drive link here]`
+
+Reminder:
+- One approved AUCA SE professor should appear on camera
+- Feedback should be objective and based on your project walkthrough
 
 ---
 

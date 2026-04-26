@@ -305,11 +305,11 @@ python -m streamlit run app.py --server.port 8501
 **Critical Alert Management**  
 *Visualization of security events classified as critical with detailed metadata and timestamps.*
 
-### Historical Analysis  
+### Backend Status Check  
 ![Backend Status](assets/backend_status.png)
 
-**Historical Trend Analysis**  
-*Interactive charts displaying disk usage patterns and event frequency over selected time periods.*
+**Backend Service Status (`GET /`)**  
+*Direct response snapshot from the backend root endpoint, showing service availability, version, and alert-threshold runtime configuration.*
 
 ---
 

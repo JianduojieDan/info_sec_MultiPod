@@ -7,7 +7,7 @@
 
 ## Certification
 
-![Ethical Hacker Certificate](certificate.png)
+![Ethical Hacker Certificate](assets/certificate.png)
 
 ## Table of Contents
 
@@ -57,7 +57,7 @@ This project provides a centralized command center that:
 
 ### System Architecture Diagram
 
-<img src="README.png" width="500" alt="README 图片">
+![System Architecture Diagram](assets/README.png)
 ### Core Components
 
 1. **Backend Service** (`backEnd/main.py`)
@@ -288,37 +288,25 @@ python -m streamlit run app.py --server.port 8501
 ## Screenshots & Demo
 
 ### Dashboard Overview
-<!-- 
-Add screenshot: dashboard-overview.png
-Description: Main dashboard showing real-time metrics, charts, and filtering options
--->
+![Dashboard Overview](assets/dashboard_overview.png)
 
 **Real-time Monitoring Dashboard**  
 *The main interface displays live security events, statistical overview, and interactive filtering capabilities.*
 
 ### API Documentation  
-<!-- 
-Add screenshot: api-docs.png  
-Description: Swagger UI showing all available API endpoints with interactive testing
--->
+![API Documentation](assets/API_port.png)
 
 **Interactive API Documentation**  
 *Comprehensive API documentation with live testing capabilities through Swagger UI.*
 
 ### Alert Visualization
-<!-- 
-Add screenshot: alerts-view.png
-Description: Detailed view showing critical alerts with timestamps and host information  
--->
+![Alert Visualization](assets/alerts_view_board.png)
 
 **Critical Alert Management**  
 *Visualization of security events classified as critical with detailed metadata and timestamps.*
 
 ### Historical Analysis  
-<!-- 
-Add screenshot: historical-data.png
-Description: Historical trend charts showing disk usage patterns over time
--->
+![Backend Status](assets/backend_status.png)
 
 **Historical Trend Analysis**  
 *Interactive charts displaying disk usage patterns and event frequency over selected time periods.*

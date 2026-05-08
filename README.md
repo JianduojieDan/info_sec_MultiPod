@@ -435,7 +435,7 @@ Your presentation should cover:
 
 ## Demo Video
 
-- Demo link: `https://www.youtube.com/watch?v=gnGuCqMrHyY`
+- Demo link: [Watch on YouTube](https://www.youtube.com/watch?v=gnGuCqMrHyY)
 
 Recommended walkthrough flow:
 1. Start backend and frontend services

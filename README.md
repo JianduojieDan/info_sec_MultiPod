@@ -21,7 +21,9 @@
 - [Threshold Configuration](#threshold-configuration)
 - [Docker Deployment](#docker-deployment)
 - [Kubernetes Deployment](#kubernetes-deployment-optional)
+- [Pitch Presentation](#pitch-presentation)
 - [Demo Video](#demo-video)
+- [Faculty Feedback](#faculty-feedback)
 - [Troubleshooting](#troubleshooting)
 
 ## Project Description & Problem Statement
@@ -421,6 +423,18 @@ Note:
 ## Demo Video
 
 - Demo link: [Watch on YouTube](https://www.youtube.com/watch?v=gnGuCqMrHyY)
+
+---
+
+## Pitch Presentation
+
+- Slides link: `[Add PPT/PDF link here]`
+
+---
+
+## Faculty Feedback
+
+- Feedback video link: `[Add YouTube or Google Drive link here]`
 
 ---
 

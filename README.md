@@ -435,7 +435,7 @@ Your presentation should cover:
 
 ## Demo Video
 
-- Demo link: `[Add YouTube or Google Drive link here]`
+- Demo link: `https://www.youtube.com/watch?v=gnGuCqMrHyY`
 
 Recommended walkthrough flow:
 1. Start backend and frontend services
@@ -447,7 +447,7 @@ Recommended walkthrough flow:
 
 ## Faculty Feedback
 
-- Feedback video link: `[Add YouTube or Google Drive link here]`
+- Feedback video link: `https://www.youtube.com/watch?v=gnGuCqMrHyY`
 
 Reminder:
 - One approved AUCA SE professor should appear on camera

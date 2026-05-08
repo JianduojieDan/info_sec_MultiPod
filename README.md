@@ -447,7 +447,7 @@ Recommended walkthrough flow:
 
 ## Faculty Feedback
 
-- Feedback video link: `https://www.youtube.com/watch?v=gnGuCqMrHyY`
+- Feedback video link: `[Add YouTube or Google Drive link here]`
 
 Reminder:
 - One approved AUCA SE professor should appear on camera

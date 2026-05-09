@@ -428,7 +428,7 @@ Note:
 
 ## Pitch Presentation
 
-- Slides link: `[Add PPT/PDF link here]`
+- Slides link: [View Slides PDF](./pdfjoiner.pdf)
 
 ---
 
